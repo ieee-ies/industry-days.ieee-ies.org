@@ -2,14 +2,6 @@
 Template Name: Event HTML TEMPLATE
 Author: yaminncco
 
-Colors:
-	Body 		  : #444
-	Headers 	: #0b0f28
-	Primary 	: #dd0a37
-	Dark 		  : #000
-	Grey 		  : #F9F9FA #DADADA
-
-Fonts:
 
 Table OF Contents
 ------------------------------------
@@ -79,7 +71,7 @@ a {
 a:hover, a:focus {
   text-decoration: none;
   outline: none;
-  color: #0b0f28;
+  color: #f20202;
 }
 
 ul, ol {
@@ -105,8 +97,8 @@ ul, ol {
   font-size: 13pt;
   padding: 10px 15px;
   margin-bottom: -1px;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(221, 221, 221);
 }
 
 .main-btn {
@@ -122,7 +114,7 @@ ul, ol {
 }
 
 .main-btn:hover, .main-btn:focus {
-  color: #FFF;
+  color: rgb(250, 226, 3);
   opacity: 0.8;
 }
 
@@ -240,7 +232,7 @@ textarea.input {
 
 #header {
   position: relative;
-  background-color: #FFF;
+  background-color: rgb(255, 255, 255);
   border-bottom: 1px solid #0000001a;
   z-index: 80;
   -webkit-transition: 0.3s all;
@@ -254,6 +246,7 @@ textarea.input {
   top: 0;
   background-color: transparent;
   border-bottom: 1px solid #DADADA30;
+  font-weight: bold;
 }
 
 #header.fixed-navbar {
@@ -261,12 +254,13 @@ textarea.input {
   left: 0;
   right: 0;
   top: 0;
-  background: #FFF;
+  background: rgb(239, 251, 255);
   -webkit-box-shadow: 0px 0px 3px #0003;
   box-shadow: 0px 0px 3px #0003;
   border-bottom: none;
   -webkit-animation: slide-in 0.3s;
   animation: slide-in 0.3s;
+  font-weight: bold;
 }
 
 @-webkit-keyframes slide-in {
@@ -293,7 +287,7 @@ textarea.input {
 
 .main-nav li a {
   position: relative;
-  padding: 30px 15px;
+  padding: 20px 15px;
   color: #0b0f28;
   text-transform: uppercase;
   -webkit-transition: 0.3s all;
@@ -438,7 +432,7 @@ textarea.input {
 }
 
 .about-content p {
-   line-height: 2;
+   line-height: 1.3;
 }
 
 /*=========================================================
